@@ -114,3 +114,84 @@ Terms often used interchangeably, but subtle differences exist.
 7. Reduces conflicts and overlapping responsibilities among team members.
 
 ---
+
+# 3. Phases of the Software Development Life Cycle (SDLC)
+
+## Overview
+- The **Software Development Life Cycle (SDLC)** consists of **six phases**:
+  1. Planning
+  2. Design
+  3. Development
+  4. Testing
+  5. Deployment
+  6. Maintenance
+- Each phase is discrete meaning that tasks from a previous phase do not overlap with ​tasks in the next phase.
+- The original SDLC followed the **Waterfall Model (Linear Approach)**, but modern SDLCs often use **iterative approaches**.
+- Some organizations may use different names or additional phases (e.g., **Planning** may be called **Requirements**, **Strategy** or **Analysis**).
+
+
+## 1. Planning Phase
+- Requirements are **gathered, analyzed, documented, and prioritized**.
+- Factors to consider:
+  - Users of the solution
+  - Overall purpose of the solution
+  - Data inputs and outputs
+  - Legal and regulatory compliance
+  - Risk identification
+  - Quality assurance requirements
+  - Allocation of human and financial resources
+  - Project schedule
+- Labor and material costs are estimated and weighed against time constraints.
+- Define **project team** and responsibilities.
+- **Prototyping** may occur here to tease out unclear requirements (small-scale replica used for stakeholder feedback and testing basic design ideas). Can also occur in later phases if needed.
+- Requirements are compiled into a **Software Requirements Specification (SRS)** document.
+- The **SRS** must be understood and approved by all stakeholders, including developers.
+
+
+## 2. Design Phase
+- Use the **SRS** to design the software architecture.
+- Team members collaborate to design the software architecture.
+- Create **prototypes** for stakeholder feedback.
+- Review the architecture with stakeholders.
+- Produce the **Design Document** for developers.
+
+---
+
+## 3. Development Phase
+- Also called the **Implementation** or **Building** phase.
+- Developers write code based on the **Design Document**.
+- Coding tasks are assigned by project planners.
+- Use programming languages, tools, frameworks, and software stacks.
+- Follow organizational coding standards and guidelines.
+
+
+## 4. Testing Phase
+- Verify that the software is **stable**, **secure**, and meets **SRS requirements**.
+- Testing can be:
+  - Manual
+  - Automated
+  - Hybrid
+- Bugs are reported, tracked, fixed, and the software is retested.
+
+### Common Testing Levels
+- **Unit Testing**
+- **Integration Testing**
+- **System Testing**
+- **Acceptance Testing**
+
+
+## 5. Deployment Phase
+- Release the software to the **production environment**.
+- May first be deployed to **User Acceptance Testing (UAT)**.
+- After customer approval, release to production.
+- Software can be deployed to websites, mobile app stores, or corporate servers.
+
+
+## 6. Maintenance Phase
+- Monitor the software after deployment.
+- Fix newly discovered bugs.
+- Improve the **User Interface (UI)**.
+- Identify additional requirements and enhancements.
+- Feedback and enhancements may initiate a **new SDLC cycle**.
+
+---
