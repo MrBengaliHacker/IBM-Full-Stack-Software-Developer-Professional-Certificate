@@ -45,10 +45,10 @@ Some issues still exist today, but to a much lesser extent.
 - Standardized methodologies enabling large, complex, scalable solutions.
 
 ## Resolution
-- The S**oftware Crisis** was addressed by transforming unorganized coding efforts into an established engineering discipline.
-- **Mid-1980s** saw a rise in growth of **CASE (Computer-Aided Software Engineering) tools**, which also helped relieve the crisis.
+- The **Software Crisis** was addressed by transforming unorganized coding efforts into an established engineering discipline.
+- **Mid-1980s** saw the rise of **CASE (Computer-Aided Software Engineering)** tools, which also helped relieve the crisis.
 
-### CASE Tools — 6 Categories
+### CASE Tools — Six Categories
 1. **Business analysis and modeling**
 2. **Development tools (e.g., debugging environments)**
 3. **Verification and validation tools**
@@ -71,7 +71,7 @@ Terms often used interchangeably, but subtle differences exist.
 
 ### Software developers:
 
-- **Narrower scope** than Software engineers .
+- **Narrower scope** than **Software engineers**.
 - May take a **more creative approach**.
 - Write code to implement **specific functionality** and solve **specific problems**
 
@@ -125,7 +125,7 @@ Terms often used interchangeably, but subtle differences exist.
   4. Testing
   5. Deployment
   6. Maintenance
-- Each phase is discrete meaning that tasks from a previous phase do not overlap with ​tasks in the next phase.
+- Each phase is **discrete**, meaning that tasks from a previous phase do not overlap with ​tasks in the next phase.
 - The original SDLC followed the **Waterfall Model (Linear Approach)**, but modern SDLCs often use **iterative approaches**.
 - Some organizations may use different names or additional phases (e.g., **Planning** may be called **Requirements**, **Strategy** or **Analysis**).
 
@@ -224,7 +224,7 @@ Requirements fall into **four categories**:
 ## 2. Design
 - Transforms requirements into a software design that developers can implement.
 - Defines the **system architecture**.
-The technical lead breaks requirements into related components with clearly defined:
+- The technical lead breaks requirements into related components with clearly defined:
   - Behaviors
   - Boundaries
   - Interactions
@@ -322,4 +322,155 @@ Includes:
 - Online help
 - Inline help
 
+---
+
+# 5. Requirements
+
+## Overview
+- **Requirement Gathering** is a **six-step process** for defining a problem and documenting how to solve it.
+- It ensures the software meets **business** and **user requirements**.
+
+---
+
+## Requirement Gathering Process
+
+### 1. Identifying Stakeholders
+- Identify everyone affected by the software, including:
+  - Decision-makers
+  - End-users
+  - System administrators
+  - Engineers
+  - Marketing
+  - Sales
+  - Customer support
+
+### 2. Establish Goals and Objectives
+- **Goals:** Broad, long-term achievable outcomes.
+- **Objectives:** Specific, actionable and measurable actions that achieve the goals.
+
+### 3. Elicit Requirements
+Requirements are gathered using:
+- Surveys
+- Questionnaires
+- Interviews
+
+### 4. Document Requirements
+- Ensure they align with the project goals and objectives.
+- Must be easily understood by stakeholders and the project team.
+
+### 5. Analyze & Confirm Requirements
+- Requirements are analyzed for:
+  - **Consistency**
+  - **Clarity**
+  - **Completeness**
+
+- Review and obtain stakeholder approval.
+
+### 6. Prioritize Requirements
+Common priority levels:
+- **Must-have**
+- **Highly Desired**
+- **Nice to Have**
+
+
+> **Note:** Requirement elicitation, documentation, and confirmation are usually performed **iteratively**.
+---
+
+## Requirement Documents
+
+### 1. Software Requirements Specification (SRS)
+The **SRS** defines what the software must do and its expected performance.
+
+### Includes
+- Purpose
+- Scope
+- Constraints
+- Assumptions
+- Dependencies
+- Requirements
+
+
+### Purpose statement
+- Intended use of the SRS
+- Audience
+- Scope (software benefits, goals, and objectives)
+
+### Constraints, Assumptions, and Dependencies
+- **Constraints** — operating conditions that limit design options (e.g., standards compliance, hardware limitations).
+- **Assumptions** — e.g., required OS or hardware needed to function.
+- **Dependencies** — reliance on other software products.
+
+### Requirement (4 categories):
+- **Functional Requirements** — core functionalities of the software.
+- **External Interface Requirements** — behavior in relation to external entities (users, other hardware/software).
+- **System Features** — subset of functional requirements; features required for the system to function.
+- **Non-functional Requirements** — performance, safety, security, quality standards.
+
+
+### 2. User Requirements Specification (URS)
+
+The **URS** describes the business needs and expectations of end users.
+
+- Requirements are written as **User Stories** or **Use Cases** answering:
+
+  - **Who** is the user?
+  - **What** functionality is needed?
+  - **Why** is it needed?
+
+- Verified during **User Acceptance Testing (UAT)**.
+- Often **combined with the SRS** into a single document.
+
+
+### 3. System Requirements Specification (SysRS)
+
+- Outlines requirements of the **entire system — broader in scope** than the SRS.
+- Often used interchangeably with SRS, but technically distinct.
+- Most software projects develop an **SRS**, not a SysRS.
+
+### Includes
+- System capabilities
+- Interfaces and User characteristics
+- Policy requirements
+- Regulatory requirements
+- Personnel requirements
+- Performance requirements
+- Security requirements
+- System acceptance criteria
+- Hardware expectations
+
+## SRS vs URS vs SysRS
+
+| Document | Purpose |
+|----------|---------|
+| **SRS** | Defines software requirements and functionality. |
+| **URS** | Defines user needs using user stories or use cases. |
+| **SysRS** | Defines requirements for the complete system (hardware + software). |
+
+---
+
+# Summary
+ 
+In this section, you learned:
+ 
+- **Software Engineering** is a systematic approach to designing, developing, testing, and maintaining software; it became a recognized discipline in the **1960s**, shifting from **ad hoc** to **formal, standardized** methods.
+- The **Software Crisis** (mid-1960s–mid-1980s) led to the adoption of structured engineering practices and the rise of **CASE tools**.
+- A **Software Engineer** focuses on building complete systems, while a **Software Developer** focuses on implementing specific functionalities.
+- The **Software Development Life Cycle (SDLC)** provides a structured process for developing high-quality software, originally following the **Waterfall Model** and now often **iterative**. Its advantages include improved efficiency, communication, and clearly defined roles.
+- The SDLC consists of **Planning, Design, Development, Testing, Deployment, and Maintenance**.
+- High-quality software is built through **Requirements Gathering, Design, Coding for Quality, Testing, Releases (Alpha, Beta, GA), and Documentation**.
+- **Requirement Gathering** is a six-step process that produces documents such as **SRS, URS, and SysRS**.
+### Key Terms
+- Software Engineering
+- SDLC
+- Software Crisis
+- Waterfall Model
+- CASE Tools
+- SRS
+- URS
+- SysRS
+- Prototype
+- UAT
+- Alpha Release
+- Beta Release
+- General Availability (GA)
 ---
