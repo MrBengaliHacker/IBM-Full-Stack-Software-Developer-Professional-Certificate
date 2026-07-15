@@ -195,3 +195,131 @@ Terms often used interchangeably, but subtle differences exist.
 - Feedback and enhancements may initiate a **new SDLC cycle**.
 
 ---
+
+# 4. Building Quality Software
+
+## Overview
+- Building **high-quality software** involves six common software engineering processes:
+  1. Requirements Gathering
+  2. Design
+  3. Coding for Quality
+  4. Testing
+  5. Releases
+  6. Documentation
+- Together, these processes help build **reliable, maintainable, secure, and high-quality software**.
+
+
+## 1. Requirements Gathering
+- Collect and document software requirements in a **Software Requirements Specification (SRS)**.
+- May include **use cases** describing business needs and user flows.
+
+### Types of Requirements
+Requirements fall into **four categories**:
+- **Functional**
+- **External & User Interface (UI)**
+- **System Features**
+- **Non-functional**
+
+
+## 2. Design
+- Transforms requirements into a software design that developers can implement.
+- Defines the **system architecture**.
+The technical lead breaks requirements into related components with clearly defined:
+  - Behaviors
+  - Boundaries
+  - Interactions
+- Covers:
+  - Business rules
+  - Application logic
+  - API design
+  - User Interface (UI)
+  - Database design
+  - Performance
+  - Security
+
+
+## 3. Coding for Quality
+
+### Code Quality
+Quality code should be:
+- **Maintainable**
+- **Readable**
+- **Testable**
+- **Secure**
+- **Efficient**
+- **Well documented**
+- **Clean and consistent**
+- **Meets software requirements without defects**
+
+### Best Practices
+- Follow coding standards, conventions, patterns, and styles.
+- Use **Linters** to detect coding and stylistic errors.
+- Write meaningful comments for easier maintenance.
+
+
+## 4. Testing
+- Verifies that software meets established requirements and is **free of bugs**.
+- Identifies errors, gaps, and missing requirements.
+- Ensures:
+  - Reliability
+  - Security
+  - Performance
+  - Efficiency
+
+### Testing Methods
+- Manual
+- Automated
+
+### Testing Levels
+1. **Unit Testing**
+2. **Integration Testing**
+3. **System Testing**
+4. **User Acceptance Testing (UAT/Beta Testing)**
+
+### Testing Types
+- Functional
+- Non-functional
+- Regression
+
+
+## 5. Releases
+
+### Alpha Release (α)
+- First working version.
+- Released to a **select group of stakeholders**.
+- May contain bugs and incomplete features.
+
+### Beta Release (β)
+- Released to users outside the development team.
+- Tests software under **real-world conditions**.
+- Should meet all functional requirements.
+
+### General Availability (GA)
+- Final stable release.
+- Available to **all users**.
+
+
+## 6. Documentation
+
+Documentation is divided into **two types**:
+### 1. System Documentation (Technical)
+For developers, engineers, and architects.
+
+Includes:
+- README files
+- Inline comments
+- Architecture & design documents
+- Verification information
+- Maintenance guides
+
+### 2. User Documentation (Non-Technical)
+For end users.
+
+Includes:
+- User guides
+- Manuals
+- Instructional videos
+- Online help
+- Inline help
+
+---
