@@ -255,3 +255,252 @@ Commonly selected test cases include:
 | Acceptance | Validates user requirements and business processes. |
 
 ---
+
+# 4. Software Documentation
+
+## Overview
+- **Software Documentation** is information that describes what a software product is and how to use it.
+- Documentation supports all phases of the **Software Development Life Cycle (SDLC)**.
+- It can be created for different audiences, including:
+  - End users
+  - Software developers
+  - QA engineers
+  - System administrators
+  - Other stakeholders
+
+---
+
+## Documentation Formats
+
+Software documentation can be in three formats:
+- **Written**
+- **Video**
+- **Graphical**
+
+
+## Documentation Categories
+
+### 1. Product Documentation
+- Describes the **functionality** of the software product.
+- Explains what the software does and how it works.
+
+### 2. Process Documentation
+- Describes **how to complete a task**.
+- Provides guidance for implementing business processes.
+- Often accompanied by **Standard Operating Procedures (SOPs)**.
+
+
+## Types of Product Documentation
+
+### 1. Requirements Documentation
+- Created during the **Planning** phase.
+- Describes expected software features and functionality.
+- Includes:
+  - Software Requirements Specification (SRS)
+  - System Requirements Specification (SysRS)
+  - User Acceptance Specification
+
+### 2. Design Documentation
+- Created by software architects and developers.
+- Explains how the software will be built.
+- Includes:
+  - Conceptual design documents
+  - Technical design documents
+
+### 3. Technical Documentation
+- Helps developers understand the code.
+- Includes:
+  - Code comments
+  - Working papers
+  - Engineering notes and ideas
+
+### 4. Quality Assurance (QA) Documentation
+- Describes the testing strategy, progress, and metrics.
+- Includes:
+  - Test plans
+  - Test data
+  - Test scenarios
+  - Test cases
+  - Test strategies
+  - Traceability matrices
+
+### 5. User Documentation
+- Intended for end users.
+- Explains how to install, use, and troubleshoot the software.
+- Includes:
+  - FAQs
+  - Installation guides
+  - Help guides
+  - Tutorials
+  - User manuals
+
+
+## Standard Operating Procedures (SOPs)
+
+- **SOPs** are detailed, organization-specific instructions for completing common tasks.
+- More detailed than general process documentation.
+- Can be presented as:
+  - Flowcharts
+  - Hierarchical outlines
+  - Step-by-step instructions
+
+
+## Documentation Maintenance
+- Documentation should always be **kept up to date**.
+- Updated during the **Maintenance** phase of the SDLC.
+- Should be reviewed periodically to ensure accuracy.
+
+
+## Product Documentation vs Process Documentation
+
+| Product Documentation | Process Documentation |
+|------------------------|-----------------------|
+| Describes product functionality. | Describes how to complete a task. |
+| Focuses on the software product. | Focuses on business processes and procedures. |
+| Intended for users and development teams. | Intended for people performing organizational tasks. |
+
+---
+
+# 5. Roles in Software Engineering Projects
+
+## Overview
+- Software engineering projects involve **multiple roles**, each with specific responsibilities.
+- Role names may vary depending on the development methodology (e.g., **Agile** or **Waterfall**) or the organization.
+- Not every project includes all roles.
+
+---
+
+## Common Roles
+
+### 1. Project Manager / Scrum Master
+
+#### Project Manager (Traditional SDLC)
+Responsibilities:
+- Planning, scheduling, and budgeting
+- Allocating personnel and resources
+- Executing the software plan
+- Facilitating team communication
+
+#### Scrum Master (Agile)
+Responsibilities:
+- Ensures team and individual success
+- Facilitates communication
+- Removes obstacles affecting the team
+- Supports Agile principles and practices
+
+---
+
+### 2. Stakeholder
+Stakeholders are the people for whom the software is being developed.
+
+Examples:
+- Customers
+- End users
+- Decision-makers
+- System administrators
+- Other key personnel
+
+Responsibilities:
+- Define project requirements
+- Provide feedback and clarification
+- Participate in Beta Testing and Acceptance Testing
+
+---
+
+### 3. System / Software Architect
+
+Also called:
+- Software Architect
+- Solution Architect
+
+Responsibilities:
+- Design the software architecture
+- Define the technical structure of the system
+- Communicate the architecture to the development team
+- Provide technical guidance throughout the SDLC
+
+---
+
+### 4. UX (User Experience) Designer
+
+Responsibilities:
+- Design the software from the user's perspective
+- Make the application intuitive and easy to use
+- Define user interactions and interface behavior
+- Balance usability with business requirements
+
+---
+
+### 5. Software Developer
+
+Responsibilities:
+- Write application code
+- Implement the software architecture
+- Follow the Software Requirements Specification (SRS)
+- Implement UX design requirements
+
+---
+
+### 6. Tester / QA Engineer
+
+Responsibilities:
+- Ensure software quality
+- Write and execute test cases
+- Identify bugs and defects
+- Report issues to the development team
+- Verify software meets customer requirements
+
+---
+
+### 7. Site Reliability Engineer (SRE) / Ops Engineer
+
+Responsibilities:
+- Bridge development and operations
+- Automate systems and processes
+- Monitor incidents
+- Assist with troubleshooting
+- Ensure system reliability and availability
+
+---
+
+### 8. Product Manager / Product Owner
+
+Responsibilities:
+- Define the product vision
+- Understand customer and user needs
+- Lead product development
+- Ensure the product delivers stakeholder value
+
+---
+
+### 9. Technical Writer / Information Developer
+
+Responsibilities:
+- Create documentation for end users
+- Explain technical concepts to non-technical audiences
+- Write:
+  - User manuals
+  - Reports
+  - White papers
+  - Press releases
+
+---
+
+## Role Comparison
+
+| Role | Primary Responsibility |
+|------|-------------------------|
+| Project Manager | Planning, scheduling, budgeting, communication |
+| Scrum Master | Team success and Agile facilitation |
+| Stakeholder | Define requirements and provide feedback |
+| Software Architect | Design system architecture |
+| UX Designer | Improve user experience and interface |
+| Software Developer | Build the software |
+| Tester / QA Engineer | Test software quality |
+| SRE / Ops Engineer | Ensure reliability and operations |
+| Product Manager | Define product vision and value |
+| Technical Writer | Create user documentation |
+
+---
+
+
